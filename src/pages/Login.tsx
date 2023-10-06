@@ -1,5 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-types */
 type Props = {};
-const Login = (props: Props) => {
+const Login = (_props: Props) => {
 	return <div>Login</div>;
 };
 export default Login;
